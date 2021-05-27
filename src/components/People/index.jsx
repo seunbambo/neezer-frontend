@@ -1,4 +1,6 @@
 import React from 'react';
+import Slide from 'react-reveal/Slide';
+
 import './styles.css';
 import Ayo from '../../assets/staffs/Ayo.png';
 import Dapo from '../../assets/staffs/dapo.png';
@@ -41,62 +43,73 @@ const People = () => {
             </div>
             <div className='row col-lg-12 col-md-12 mx-auto'>
               {/* <!-- <div className="col-lg-2 col-md-2"></div> --> */}
-              <figure className='figure col-lg-3 col-md-3'>
-                <img
-                  className='figure-img img-fluid mx-auto rounded staff-images'
-                  src={Ayo}
-                  alt='software-development-icon'
-                />
-                <figcaption className='figure-caption text-center'>
-                  <b>Ayo</b>
-                  <br />
-                  <a href='#' className='read-more'>
-                    Title
-                  </a>
-                </figcaption>
-              </figure>
-              <figure className='figure col-lg-3 col-md-3'>
-                <img
-                  className='figure-img img-fluid mx-auto rounded staff-images'
-                  src={Dapo}
-                  alt='software-development-icon'
-                />
-                <figcaption className='figure-caption text-center'>
-                  <b>Dapo</b>
-                  <br />
-                  <a href='#' className='read-more'>
-                    Operations Manager
-                  </a>
-                </figcaption>
-              </figure>
-              <figure className='figure col-lg-3 col-md-3'>
-                <img
-                  className='figure-img img-fluid mx-auto rounded staff-images'
-                  src={Odun}
-                  alt='software-development-icon'
-                />
-                <figcaption className='figure-caption text-center'>
-                  <b>Odunola</b>
-                  <br />
-                  <a href='#' className='read-more'>
-                    Brand Manager
-                  </a>
-                </figcaption>
-              </figure>
-              <figure className='figure col-lg-3 col-md-3'>
-                <img
-                  className='figure-img img-fluid mx-auto rounded staff-images'
-                  src={Hope}
-                  alt='software-development-icon'
-                />
-                <figcaption className='figure-caption text-center'>
-                  <b>Hope Atogi</b>
-                  <br />
-                  <a href='#' className='read-more'>
-                    HR
-                  </a>
-                </figcaption>
-              </figure>
+              <Slide right>
+                <figure className='figure col-lg-3 col-md-3'>
+                  <img
+                    className='figure-img img-fluid mx-auto rounded staff-images'
+                    src={Ayo}
+                    alt='software-development-icon'
+                  />
+                  <figcaption className='figure-caption text-center'>
+                    <b>Ayo</b>
+                    <br />
+                    <a href='#' className='read-more'>
+                      Title
+                    </a>
+                  </figcaption>
+                </figure>
+              </Slide>
+
+              <Slide right delay={200}>
+                <figure className='figure col-lg-3 col-md-3'>
+                  <img
+                    className='figure-img img-fluid mx-auto rounded staff-images'
+                    src={Dapo}
+                    alt='software-development-icon'
+                  />
+                  <figcaption className='figure-caption text-center'>
+                    <b>Dapo</b>
+                    <br />
+                    <a href='#' className='read-more'>
+                      Operations Manager
+                    </a>
+                  </figcaption>
+                </figure>
+              </Slide>
+
+              <Slide right delay={400}>
+                <figure className='figure col-lg-3 col-md-3'>
+                  <img
+                    className='figure-img img-fluid mx-auto rounded staff-images'
+                    src={Odun}
+                    alt='software-development-icon'
+                  />
+                  <figcaption className='figure-caption text-center'>
+                    <b>Odunola</b>
+                    <br />
+                    <a href='#' className='read-more'>
+                      Brand Manager
+                    </a>
+                  </figcaption>
+                </figure>
+              </Slide>
+
+              <Slide right delay={600}>
+                <figure className='figure col-lg-3 col-md-3'>
+                  <img
+                    className='figure-img img-fluid mx-auto rounded staff-images'
+                    src={Hope}
+                    alt='software-development-icon'
+                  />
+                  <figcaption className='figure-caption text-center'>
+                    <b>Hope Atogi</b>
+                    <br />
+                    <a href='#' className='read-more'>
+                      HR
+                    </a>
+                  </figcaption>
+                </figure>
+              </Slide>
             </div>
           </div>
         </div>

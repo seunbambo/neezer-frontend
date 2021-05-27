@@ -1,4 +1,7 @@
 import React from 'react';
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
+
 import './styles.css';
 import softwareDevIcon from '../../assets/software-dev-icon.png';
 import webDesignIcon from '../../assets/web-design-icon.png';
@@ -48,57 +51,65 @@ const Services = () => {
           className='col-lg-12 col-md-12 row'
           style={{ lineHeight: '1.7rem' }}
         >
-          <figure className='figure col-lg-4 col-md-4'>
-            <img
-              src={softwareDevIcon}
-              className='figure-img img-fluid rounded mx-auto services-icon'
-              alt=''
-            />
-            <figcaption className='figure-caption text-center'>
-              <b>
-                Software Application and <br />
-                Development
-              </b>
-              <br />
-              <a href='#' className='read-more'>
-                Read more...
-              </a>
-            </figcaption>
-          </figure>
-          <figure className='figure col-lg-4 col-md-4'>
-            <img
-              className='figure-img img-fluid mx-auto rounded services-icon'
-              src={webDesignIcon}
-              alt='web-design-icon'
-            />
-            <figcaption className='figure-caption text-center'>
-              <b>
-                Web Design and Cooperate <br />
-                Systems
-              </b>
-              <br />
-              <a href='#' className='read-more'>
-                Read more...
-              </a>
-            </figcaption>
-          </figure>
-          <figure className='figure col-lg-4 col-md-4'>
-            <img
-              className='figure-img img-fluid mx-auto rounded services-icon'
-              src={socialMarketingIcon}
-              alt='software-development-icon'
-            />
-            <figcaption className='figure-caption text-center'>
-              <b>
-                Digital Branding and <br />
-                Market Strategy
-              </b>
-              <br />
-              <a href='#' className='read-more'>
-                Read more...
-              </a>
-            </figcaption>
-          </figure>
+          <Slide left>
+            <figure className='figure col-lg-4 col-md-4 my-2'>
+              <img
+                src={softwareDevIcon}
+                className='figure-img img-fluid rounded mx-auto services-icon'
+                alt=''
+              />
+              <figcaption className='figure-caption text-center'>
+                <b>
+                  Software Application and <br />
+                  Development
+                </b>
+                <br />
+                <a href='#' className='read-more'>
+                  Read more...
+                </a>
+              </figcaption>
+            </figure>
+          </Slide>
+
+          <Zoom delay={500}>
+            <figure className='figure col-lg-4 col-md-4 my-2'>
+              <img
+                className='figure-img img-fluid mx-auto rounded services-icon'
+                src={webDesignIcon}
+                alt='web-design-icon'
+              />
+              <figcaption className='figure-caption text-center'>
+                <b>
+                  Web Design and Cooperate <br />
+                  Systems
+                </b>
+                <br />
+                <a href='#' className='read-more'>
+                  Read more...
+                </a>
+              </figcaption>
+            </figure>
+          </Zoom>
+
+          <Slide right>
+            <figure className='figure col-lg-4 col-md-4 my-2'>
+              <img
+                className='figure-img img-fluid mx-auto rounded services-icon'
+                src={socialMarketingIcon}
+                alt='software-development-icon'
+              />
+              <figcaption className='figure-caption text-center'>
+                <b>
+                  Digital Branding and <br />
+                  Market Strategy
+                </b>
+                <br />
+                <a href='#' className='read-more'>
+                  Read more...
+                </a>
+              </figcaption>
+            </figure>
+          </Slide>
 
           {/* <!-- </div> --> */}
         </div>
@@ -109,34 +120,39 @@ const Services = () => {
         >
           <div className='row col-lg-12 col-md-12 mx-auto'>
             <div className='col-lg-2 col-md-2'></div>
-            <figure className='figure col-lg-4 col-md-4'>
-              <img
-                className='figure-img img-fluid mx-auto rounded services-icon'
-                src={fintechIcon}
-                alt='software-development-icon'
-              />
-              <figcaption className='figure-caption text-center'>
-                <b>Fintech Solutions</b>
-                <br />
-                <a href='#' className='read-more'>
-                  Read more...
-                </a>
-              </figcaption>
-            </figure>
-            <figure className='figure col-lg-4 col-md-4'>
-              <img
-                className='figure-img img-fluid mx-auto rounded services-icon'
-                src={consultIcon}
-                alt='software-development-icon'
-              />
-              <figcaption className='figure-caption text-center'>
-                <b>Consulting Services</b>
-                <br />
-                <a href='#' className='read-more'>
-                  Read more...
-                </a>
-              </figcaption>
-            </figure>
+            <Slide left>
+              <figure className='figure col-lg-4 col-md-4 my-2'>
+                <img
+                  className='figure-img img-fluid mx-auto rounded services-icon'
+                  src={fintechIcon}
+                  alt='software-development-icon'
+                />
+                <figcaption className='figure-caption text-center'>
+                  <b>Fintech Solutions</b>
+                  <br />
+                  <a href='#' className='read-more'>
+                    Read more...
+                  </a>
+                </figcaption>
+              </figure>
+            </Slide>
+
+            <Slide right delay={200}>
+              <figure className='figure col-lg-4 col-md-4 my-2'>
+                <img
+                  className='figure-img img-fluid mx-auto rounded services-icon'
+                  src={consultIcon}
+                  alt='software-development-icon'
+                />
+                <figcaption className='figure-caption text-center'>
+                  <b>Consulting Services</b>
+                  <br />
+                  <a href='#' className='read-more'>
+                    Read more...
+                  </a>
+                </figcaption>
+              </figure>
+            </Slide>
             <div className='col-lg-2 col-md-2'></div>
           </div>
         </div>
