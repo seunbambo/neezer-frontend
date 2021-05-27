@@ -18,7 +18,8 @@ const NavBar = () => {
         zIndex: '-1',
       }}
     >
-      <nav className='navbar navbar-expand-lg color-dark fixed-top navbar'>
+      <nav className='navbar navbar-expand-lg color-dark navbar'>
+        {/* <nav className='navbar navbar-expand-lg color-dark fixed-top navbar'> */}
         <div className='container'>
           <a className='custom-link navbar-brand' href='#'>
             <img src={logo} alt='logo' className='logo' />
