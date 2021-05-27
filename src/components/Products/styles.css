@@ -1,0 +1,23 @@
+.section-four {
+  background: #fee0c7;
+  padding: 2rem 0;
+  /* margin: auto; */
+}
+
+.card {
+  border-radius: 30px;
+  padding: 2rem 3rem;
+  line-height: 1.8rem;
+  box-shadow: 0 0 0 #ddd;
+  border: none;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 10px #ccc;
+  transition: 1s ease-out;
+}
+
+.product-logo {
+  width: 150px;
+  height: auto;
+}

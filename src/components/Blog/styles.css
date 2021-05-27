@@ -1,0 +1,9 @@
+.section-eight {
+  background-image: url('../../assets/blog_illustration-blog.png');
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* float: left; */
+  padding: 4rem 0;
+}

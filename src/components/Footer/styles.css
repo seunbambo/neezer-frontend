@@ -1,0 +1,10 @@
+.footer {
+  background: #111;
+  color: #eee;
+  padding: 4rem 0;
+}
+
+.footer-list > ul > li {
+  line-height: 3rem;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,16 @@
+.services-icon {
+  width: 120px;
+  height: auto;
+  display: block;
+  /* margin: auto; */
+  /* height: 100px; */
+}
+
+.read-more {
+  color: #fc7404;
+  font-size: 0.9rem;
+}
+
+.section-three {
+  padding: 2rem 0;
+}
