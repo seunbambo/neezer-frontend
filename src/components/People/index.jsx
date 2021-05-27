@@ -51,10 +51,10 @@ const People = () => {
                     alt='software-development-icon'
                   />
                   <figcaption className='figure-caption text-center'>
-                    <b>Ayo</b>
+                    <b>Oluwatosin Akomolafe</b>
                     <br />
                     <a href='#' className='read-more'>
-                      Title
+                      MD/CEO
                     </a>
                   </figcaption>
                 </figure>
@@ -68,7 +68,7 @@ const People = () => {
                     alt='software-development-icon'
                   />
                   <figcaption className='figure-caption text-center'>
-                    <b>Dapo</b>
+                    <b>Oladapo Oluseye</b>
                     <br />
                     <a href='#' className='read-more'>
                       Operations Manager
@@ -85,10 +85,10 @@ const People = () => {
                     alt='software-development-icon'
                   />
                   <figcaption className='figure-caption text-center'>
-                    <b>Odunola</b>
+                    <b>Odunola Oyeyipo</b>
                     <br />
                     <a href='#' className='read-more'>
-                      Brand Manager
+                      Branding & Communications Officer
                     </a>
                   </figcaption>
                 </figure>
@@ -98,14 +98,14 @@ const People = () => {
                 <figure className='figure col-lg-3 col-md-3'>
                   <img
                     className='figure-img img-fluid mx-auto rounded staff-images'
-                    src={Hope}
+                    src={Ayo}
                     alt='software-development-icon'
                   />
                   <figcaption className='figure-caption text-center'>
-                    <b>Hope Atogi</b>
+                    <b>Ayomide Akomolafe</b>
                     <br />
                     <a href='#' className='read-more'>
-                      HR
+                      Product Specialist
                     </a>
                   </figcaption>
                 </figure>
