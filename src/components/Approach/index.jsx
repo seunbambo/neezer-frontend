@@ -59,11 +59,9 @@ const Approach = () => {
                     data-parent='#accordion'
                   >
                     <div className='card-body'>
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor.
+                      We select an expert team to help our clients develop new
+                      business models or improve existing ones, thus outlining
+                      feasible ways to deliver your expectations.
                     </div>
                   </div>
                 </div>
@@ -92,11 +90,8 @@ const Approach = () => {
                     data-parent='#accordion'
                   >
                     <div className='card-body'>
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor.
+                      We align effective processes and resources to shape your
+                      business idea.
                     </div>
                   </div>
                 </div>
@@ -126,11 +121,8 @@ const Approach = () => {
                     data-parent='#accordion'
                   >
                     <div className='card-body'>
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor.
+                      We ensure that the right tools are allocated to the
+                      successful implementation of your project.
                     </div>
                   </div>
                 </div>
@@ -160,11 +152,7 @@ const Approach = () => {
                     data-parent='#accordion'
                   >
                     <div className='card-body'>
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor.
+                      We work with you to ensure that your expectations are met.
                     </div>
                   </div>
                 </div>

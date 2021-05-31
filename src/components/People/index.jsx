@@ -30,7 +30,7 @@ const People = () => {
                 >
                   EO
                 </span>
-                EP
+                P
               </span>
               LE
             </h4>
@@ -98,14 +98,14 @@ const People = () => {
                 <figure className='figure col-lg-3 col-md-3'>
                   <img
                     className='figure-img img-fluid mx-auto rounded staff-images'
-                    src={Ayo}
+                    src={Hope}
                     alt='software-development-icon'
                   />
                   <figcaption className='figure-caption text-center'>
-                    <b>Ayomide Akomolafe</b>
+                    <b>Hop Atogi</b>
                     <br />
                     <a href='#' className='read-more'>
-                      Product Specialist
+                      Human Resources
                     </a>
                   </figcaption>
                 </figure>

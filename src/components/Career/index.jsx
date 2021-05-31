@@ -8,25 +8,23 @@ const Career = () => {
         <div className='row col-lg-12 col-md-12 mx-auto'>
           <div className='col-lg-12 col-md-12 text-center'>
             <h4 className='text-center'>
-              C
               <span
                 style={{
                   borderBottom: '0.2rem solid #636363',
                   fontWeight: '900',
                 }}
               >
-                A
+                CA
                 <span
                   style={{
                     borderBottom: '0.4rem solid #fc7404',
                     borderRadius: '6px',
                   }}
                 >
-                  RE
+                  REE
                 </span>
-                E
+                RS
               </span>
-              R
             </h4>
           </div>
           <div className='col-lg-12 col-md-12 text-center'>

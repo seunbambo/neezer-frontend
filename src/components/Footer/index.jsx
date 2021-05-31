@@ -49,8 +49,12 @@ const Footer = () => {
                 <i>Products</i>
               </li>
               <li>Coinchain</li>
-              <li>Neezerchain</li>
-              <li>Neezergreene</li>
+              <li>
+                <a href='http://neezerlink.com/' target='_blank'>
+                  NeezerLink
+                </a>
+              </li>
+              <li>NeezerGreene</li>
             </ul>
           </div>
         </div>
