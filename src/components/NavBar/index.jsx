@@ -40,7 +40,7 @@ const NavBar = () => {
             className='collapse navbar-collapse'
             id='navbarSupportedContent-4'
           >
-            <ul className='navbar-nav ml-auto'>
+            <ul className='navbar-nav ml-auto' style={{ zIndex: '2' }}>
               <li className='nav-item active'>
                 <a
                   className='custom-link nav-link waves-effect waves-light'

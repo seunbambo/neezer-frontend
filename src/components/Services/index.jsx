@@ -64,9 +64,53 @@ const Services = () => {
                   Development
                 </b>
                 <br />
-                <a href='#' className='read-more'>
+
+                <a
+                  href='#'
+                  class='read-more'
+                  data-toggle='modal'
+                  data-target='#softwareDevelopment'
+                >
                   Read more...
                 </a>
+
+                {/* Modal */}
+                <div
+                  class='modal fade'
+                  id='softwareDevelopment'
+                  tabindex='-1'
+                  role='dialog'
+                  aria-labelledby='softwareDevelopmentTitle'
+                  aria-hidden='true'
+                >
+                  <div
+                    class='modal-dialog modal-dialog-centered'
+                    role='document'
+                  >
+                    <div class='modal-content'>
+                      <div class='modal-header'>
+                        <h5 class='modal-title' id='exampleModalLongTitle'>
+                          Software Application and Development
+                        </h5>
+                        <button
+                          type='button'
+                          class='close'
+                          data-dismiss='modal'
+                          aria-label='Close'
+                        >
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>
+                      <div class='modal-body'>
+                        We offer digitized platforms to give users the
+                        convenience of pre-loading digital currencies into their
+                        wallets, thus enhancing online and offline transactions
+                        with merchants who accept such currencies as means of
+                        payment.
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </figcaption>
             </figure>
           </Slide>
@@ -84,9 +128,55 @@ const Services = () => {
                   Systems
                 </b>
                 <br />
-                <a href='#' className='read-more'>
+
+                <a
+                  href='#'
+                  class='read-more'
+                  data-toggle='modal'
+                  data-target='#webDesign'
+                >
                   Read more...
                 </a>
+
+                {/* Modal */}
+                <div
+                  class='modal fade'
+                  id='webDesign'
+                  tabindex='-1'
+                  role='dialog'
+                  aria-labelledby='webDesignTitle'
+                  aria-hidden='true'
+                >
+                  <div
+                    class='modal-dialog modal-dialog-centered'
+                    role='document'
+                  >
+                    <div class='modal-content'>
+                      <div class='modal-header'>
+                        <h5 class='modal-title' id='exampleModalLongTitle'>
+                          Web Design and Cooperate Systems
+                        </h5>
+                        <button
+                          type='button'
+                          class='close'
+                          data-dismiss='modal'
+                          aria-label='Close'
+                        >
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>
+                      <div class='modal-body'>
+                        We offer web design, development, security assurance,
+                        service integration and maintenance services to deliver
+                        maximum value and ensure a prominent online presence for
+                        our clients. We also build intranets and corporate
+                        web-based systems that help enterprises automate
+                        processes, increase productivity and facilitate workflow
+                        management.
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </figcaption>
             </figure>
           </Zoom>
@@ -104,9 +194,50 @@ const Services = () => {
                   Market Strategy
                 </b>
                 <br />
-                <a href='#' className='read-more'>
+                <a
+                  href='#'
+                  class='read-more'
+                  data-toggle='modal'
+                  data-target='#digitalMarketing'
+                >
                   Read more...
                 </a>
+
+                {/* Modal */}
+                <div
+                  class='modal fade'
+                  id='digitalMarketing'
+                  tabindex='-1'
+                  role='dialog'
+                  aria-labelledby='digitalMarketingTitle'
+                  aria-hidden='true'
+                >
+                  <div
+                    class='modal-dialog modal-dialog-centered'
+                    role='document'
+                  >
+                    <div class='modal-content'>
+                      <div class='modal-header'>
+                        <h5 class='modal-title' id='exampleModalLongTitle'>
+                          Digital Branding and Market Strategy
+                        </h5>
+                        <button
+                          type='button'
+                          class='close'
+                          data-dismiss='modal'
+                          aria-label='Close'
+                        >
+                          <span aria-hidden='true'>&times;</span>
+                        </button>
+                      </div>
+                      <div class='modal-body'>
+                        We offer digital transformation services to help
+                        successfully achieve your business goals, save time and
+                        create strategies that deliver outstanding results.
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </figcaption>
             </figure>
           </Slide>
@@ -130,9 +261,53 @@ const Services = () => {
                 <figcaption className='figure-caption text-center'>
                   <b>Fintech Solutions</b>
                   <br />
-                  <a href='#' className='read-more'>
+
+                  <a
+                    href='#'
+                    class='read-more'
+                    data-toggle='modal'
+                    data-target='#fintechSolutions'
+                  >
                     Read more...
                   </a>
+
+                  {/* Modal */}
+                  <div
+                    class='modal fade'
+                    id='fintechSolutions'
+                    tabindex='-1'
+                    role='dialog'
+                    aria-labelledby='fintechSolutionsTitle'
+                    aria-hidden='true'
+                  >
+                    <div
+                      class='modal-dialog modal-dialog-centered'
+                      role='document'
+                    >
+                      <div class='modal-content'>
+                        <div class='modal-header'>
+                          <h5 class='modal-title' id='exampleModalLongTitle'>
+                            Fintech Solutions
+                          </h5>
+                          <button
+                            type='button'
+                            class='close'
+                            data-dismiss='modal'
+                            aria-label='Close'
+                          >
+                            <span aria-hidden='true'>&times;</span>
+                          </button>
+                        </div>
+                        <div class='modal-body'>
+                          We offer digitized platforms to give users the
+                          convenience of pre-loading digital currencies into
+                          their wallets, thus enhancing online and offline
+                          transactions with merchants who accept such currencies
+                          as means of payment.{' '}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </figcaption>
               </figure>
             </Slide>
@@ -147,9 +322,54 @@ const Services = () => {
                 <figcaption className='figure-caption text-center'>
                   <b>Consulting Services</b>
                   <br />
-                  <a href='#' className='read-more'>
+                  <a
+                    href='#'
+                    class='read-more'
+                    data-toggle='modal'
+                    data-target='#consultingServices'
+                  >
                     Read more...
                   </a>
+
+                  {/* Modal */}
+                  <div
+                    class='modal fade'
+                    id='consultingServices'
+                    tabindex='-1'
+                    role='dialog'
+                    aria-labelledby='consultingServicesTitle'
+                    aria-hidden='true'
+                  >
+                    <div
+                      class='modal-dialog modal-dialog-centered'
+                      role='document'
+                    >
+                      <div class='modal-content'>
+                        <div class='modal-header'>
+                          <h5 class='modal-title' id='exampleModalLongTitle'>
+                            Consulting Services
+                          </h5>
+                          <button
+                            type='button'
+                            class='close'
+                            data-dismiss='modal'
+                            aria-label='Close'
+                          >
+                            <span aria-hidden='true'>&times;</span>
+                          </button>
+                        </div>
+                        <div class='modal-body'>
+                          We have experts who are always happy to help and
+                          answer your questions with respect to software
+                          consulting, digital innovation, branding solutions,
+                          and more. We also offer comprehensive strategy for
+                          digital and technological transformation of our
+                          clients’ organisations, as may be determined by
+                          business objectives.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </figcaption>
               </figure>
             </Slide>

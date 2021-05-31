@@ -48,9 +48,27 @@ const Footer = () => {
               <li>
                 <i>Products</i>
               </li>
-              <li>Coinchain</li>
               <li>
-                <a href='http://neezerlink.com/' target='_blank'>
+                <a
+                  style={{
+                    color: '#eee',
+                    fontSize: '0.85rem',
+                  }}
+                  href='https://coinchain.africa'
+                  target='_blank'
+                >
+                  Coinchain
+                </a>
+              </li>
+              <li>
+                <a
+                  style={{
+                    color: '#eee',
+                    fontSize: '0.85rem',
+                  }}
+                  href='http://neezerlink.com/'
+                  target='_blank'
+                >
                   NeezerLink
                 </a>
               </li>

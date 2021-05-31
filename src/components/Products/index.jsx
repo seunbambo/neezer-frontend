@@ -53,7 +53,11 @@ const Products = () => {
               currencies seamlessly
               <br />
               <br />
-              <a href='#' className='read-more'>
+              <a
+                href='https://coinchain.africa/'
+                target='_blank'
+                className='read-more'
+              >
                 Learn more
               </a>
             </div>
@@ -99,7 +103,11 @@ const Products = () => {
               management and consultancy
               <br />
               <br />
-              <a href='#' className='read-more'>
+              <a
+                href='http://neezerlink.com'
+                target='_blank'
+                className='read-more'
+              >
                 Learn more
               </a>
             </div>

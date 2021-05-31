@@ -102,10 +102,10 @@ const People = () => {
                     alt='software-development-icon'
                   />
                   <figcaption className='figure-caption text-center'>
-                    <b>Hop Atogi</b>
+                    <b>Hope Atogi</b>
                     <br />
                     <a href='#' className='read-more'>
-                      Human Resources
+                      HR Officer
                     </a>
                   </figcaption>
                 </figure>
