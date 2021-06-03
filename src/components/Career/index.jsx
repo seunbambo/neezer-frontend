@@ -96,7 +96,7 @@ const Career = () => {
                   <label for='basic-url'>Attach Document</label>
                   <div className='form-group'>
                     <input
-                      type='text'
+                      type='file'
                       className='form-control'
                       id='basic-url'
                       aria-describedby='basic-addon3'
