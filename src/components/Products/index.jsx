@@ -4,6 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 import './styles.css';
 import neezerlinkLogo from '../../assets/Neezerlink.png';
 import neezerGreeneLogo from '../../assets/NeezerGreene-logo.png';
+import coinchainLogo from '../../assets/coinchain.png';
 
 const Products = () => {
   return (
@@ -41,7 +42,7 @@ const Products = () => {
               <figure className='figure mx-auto'>
                 <img
                   className='product-logo'
-                  src={neezerlinkLogo}
+                  src={coinchainLogo}
                   alt='neezerlink'
                 />
                 <figcaption className='figure-caption'>

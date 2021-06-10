@@ -9,20 +9,39 @@ import People from './components/People';
 import Career from './components/Career';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <>
       <NavBar />
-      <Banner />
-      <Services />
-      <Products />
-      <Quote />
-      <Approach />
-      <People />
-      <Career />
-      <Blog />
-      <Footer />
+      <Element name='home'>
+        <Banner />
+      </Element>
+      <Element name='services'>
+        <Services />
+      </Element>
+      <Element name='products'>
+        <Products />
+      </Element>
+      <Element name='quote'>
+        <Quote />
+      </Element>
+      <Element name='approach'>
+        <Approach />
+      </Element>
+      <Element name='people'>
+        <People />
+      </Element>
+      <Element name='careers'>
+        <Career />
+      </Element>
+      <Element name='blog'>
+        <Blog />
+      </Element>
+      <Element name='contact'>
+        <Footer />
+      </Element>
     </>
   );
 }

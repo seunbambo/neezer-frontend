@@ -1,10 +1,23 @@
 import React from 'react';
+import { scroller } from 'react-scroll';
 import Slide from 'react-reveal/Slide';
 import './styles.css';
 
 const Banner = () => {
+  const scrollToElement = (element) => {
+    scroller.scrollTo(element, {
+      duration: 1500,
+      delay: 100,
+      smooth: true,
+      offset: -150,
+    });
+  };
+
   return (
-    <div className='container banner-text'>
+    <div
+      className='container banner-text'
+      style={{ zIndex: '0', position: 'relative' }}
+    >
       <Slide right>
         <h1>Delivering Innovative</h1>
       </Slide>
@@ -29,6 +42,7 @@ const Banner = () => {
             style={{ padding: '12px 30px' }}
             type='button'
             value='Get a Free Quote'
+            onClick={() => scrollToElement('quote')}
           />
         </a>
       </Slide>
