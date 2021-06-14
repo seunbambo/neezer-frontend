@@ -8,11 +8,11 @@ const Quote = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
 
-    const interest = e.target.elements[0].value;
-    const country = e.target.elements[1].value;
-    const specificTechnology = e.target.elements[2].value;
-    const name = e.target.elements[3].value;
-    const email = e.target.elements[4].value;
+    const name = e.target.elements[0].value;
+    const email = e.target.elements[1].value;
+    const country = e.target.elements[2].value;
+    const interest = e.target.elements[3].value;
+    const specificTechnology = e.target.elements[4].value;
     const projectionDescription = e.target.elements[5].value;
 
     const response = await axios.post(
@@ -29,8 +29,8 @@ const Quote = () => {
     );
 
     setMessage(response.data.message);
-    console.log(interest);
-    console.log(response);
+    // console.log(interest);
+    // console.log(response);
   };
 
   return (
@@ -57,7 +57,7 @@ const Quote = () => {
                 </span>
                 YO
               </span>
-              UR BUSINESS
+              UR PROJECT
             </h4>
             <div className='col-lg-12 col-md-12 my-5'>
               <p className='text-center'>
@@ -67,60 +67,7 @@ const Quote = () => {
               </p>
               <form onSubmit={onSubmit}>
                 <div className=' row mt-4'>
-                  <div className='col-lg-6 col-md-6'>
-                    <label for='basic-url'>I am interested in</label>
-                    <div className='form-group'>
-                      <select
-                        class='custom-select'
-                        name='interest'
-                        id='interest'
-                        required
-                      >
-                        {/* <option disabled>Please select</option> */}
-                        <option value='Blockchain'>Blockchain</option>
-                        <option value='Mobile App Development'>
-                          Mobile App Development
-                        </option>
-                        <option value='Enterprise Solution'>
-                          Enterprise Solution
-                        </option>
-                      </select>
-                      {/* <input
-                        type='text'
-                        className='form-control'
-                        id='basic-url'
-                        aria-describedby='basic-addon3'
-                        required
-                      /> */}
-                    </div>
-                  </div>
-                  <div className='col-lg-6 col-md-6'>
-                    <label for='basic-url'>Country</label>
-                    <div className=' form-group'>
-                      <input
-                        type='text'
-                        className='form-control'
-                        id='basic-url'
-                        aria-describedby='basic-addon3'
-                        required
-                      />
-                    </div>
-                  </div>
                   <div className='col-lg-12 col-md-12'>
-                    <label for='basic-url'>
-                      Are there any specific technology you are interested in?
-                    </label>
-                    <div className=' form-group'>
-                      <input
-                        type='text'
-                        className='form-control'
-                        id='basic-url'
-                        aria-describedby='basic-addon3'
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div className='col-lg-6 col-md-6'>
                     <label for='basic-url'>Name</label>
                     <div className=' form-group'>
                       <input
@@ -132,6 +79,7 @@ const Quote = () => {
                       />
                     </div>
                   </div>
+
                   <div className='col-lg-6 col-md-6'>
                     <label for='basic-url'>Email</label>
                     <div className=' form-group'>
@@ -144,6 +92,119 @@ const Quote = () => {
                       />
                     </div>
                   </div>
+
+                  <div className='col-lg-6 col-md-6'>
+                    <label for='basic-url'>Country</label>
+                    <div className=' form-group'>
+                      <input
+                        type='text'
+                        className='form-control'
+                        id='basic-url'
+                        aria-describedby='basic-addon3'
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className='col-lg-6 col-md-6'>
+                    <label for='basic-url'>I am interested in</label>
+                    <div className='form-group'>
+                      <select
+                        class='custom-select'
+                        name='interest'
+                        id='interest'
+                        required
+                      >
+                        <option disabled>Please select</option>
+                        <option value='Website Design and Corporate Systems'>
+                          Website Design and Corporate Systems
+                        </option>
+                        <option value='Software Development'>
+                          Software Development
+                        </option>
+                        <option value='Custom iOS and Android Apps Development'>
+                          Custom iOS and Android Apps Development
+                        </option>
+                        <option value='Native and Cross-platform Solutions'>
+                          Native and Cross-platform Solutions
+                        </option>
+                        <option value='UI/UX Design'>UI/UX Design</option>
+                        <option value='Digital Branding & Marketing'>
+                          Digital Branding & Marketing
+                        </option>
+                        <option value='Product Ideation & Validation'>
+                          Product Ideation & Validation
+                        </option>
+                        <option value='Technology Maintenance and Suppport'>
+                          Technology Maintenance and Suppport
+                        </option>
+                        <option value='Consulting Services'>
+                          Consulting Services
+                        </option>
+                        <option value='Mobile App Development'>
+                          Mobile App Development
+                        </option>
+                        <option value='Enterprise Solution'>
+                          Enterprise Solution
+                        </option>
+                        <option value='Other'>Other</option>
+                      </select>
+                      {/* <input
+                        type='text'
+                        className='form-control'
+                        id='basic-url'
+                        aria-describedby='basic-addon3'
+                        required
+                      /> */}
+                    </div>
+                  </div>
+
+                  <div className='col-lg-6 col-md-6'>
+                    <label for='basic-url'>
+                      Are there any specific technology you are interested in?
+                    </label>
+                    <div className='form-group'>
+                      <select
+                        class='custom-select'
+                        name='interest'
+                        id='interest'
+                        required
+                      >
+                        <option disabled>Please select</option>
+                        <option value='iOS'>iOS</option>
+                        <option value='Android'>Android</option>
+                        <option value='Kotlin'>Kotlin</option>
+                        <option value='React Native'>React Native</option>
+                        <option value='Flutter'>Flutter</option>
+                        <option value='React'>React</option>
+                        <option value='Angular'>Angular</option>
+                        <option value='Vue'>Vue</option>
+                        <option value='Ruby'>Ruby</option>
+                        <option value='Node'>Node</option>
+                        <option value='Java'>Java</option>
+                        <option value='PHP'>PHP</option>
+                        <option value='Python'>Python</option>
+                        <option value='Machine Learning'>
+                          Machine Learning
+                        </option>
+                        <option value='Salesforce Development'>
+                          Salesforce Development
+                        </option>
+                        <option value='Quality Assurrance'>
+                          Quality Assurrance
+                        </option>
+                        <option value='DevOps'>DevOps</option>
+                        <option value='Others'>Others</option>
+                      </select>
+                      {/* <input
+                        type='text'
+                        className='form-control'
+                        id='basic-url'
+                        aria-describedby='basic-addon3'
+                        required
+                      /> */}
+                    </div>
+                  </div>
+
                   <div className='col-lg-12 col-md-12'>
                     <label for='basic-url'>Project Description</label>
                     <div className='input-group form-group'>

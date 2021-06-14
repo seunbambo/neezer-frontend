@@ -3,7 +3,7 @@ import Zoom from 'react-reveal/Zoom';
 
 import './styles.css';
 import neezerlinkLogo from '../../assets/Neezerlink.png';
-import neezerGreeneLogo from '../../assets/NeezerGreene-logo.png';
+import neezerGreeneLogo from '../../assets/ng.png';
 import coinchainLogo from '../../assets/coinchain.png';
 
 const Products = () => {
@@ -68,7 +68,7 @@ const Products = () => {
             <div className='col-lg-3 col-md-4 my-3 card mx-auto text-center'>
               <figure className='figure mx-auto'>
                 <img
-                  className='product-logo'
+                  className='product-logo-neezergreene'
                   src={neezerGreeneLogo}
                   alt='neezerlink'
                 />

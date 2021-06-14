@@ -36,7 +36,7 @@ const Blog = () => {
                       className='form-control btn quote py-2 text-center'
                       id='basic-url'
                       aria-describedby='basic-addon3'
-                      value='Visit our blog'
+                      value='Visit Our Blog'
                       style={{ height: '55px' }}
                     />
                   </a>

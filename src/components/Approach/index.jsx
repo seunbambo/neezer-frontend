@@ -37,21 +37,29 @@ const Approach = () => {
             <div id='accordion'>
               <Slide left>
                 <div className='special-card my-2'>
-                  <div className='card-header' id='headingTwo'>
-                    <h5 className='mb-0'>
-                      <button
-                        className='btn btn-link collapsed text-dark'
-                        data-toggle='collapse'
-                        data-target='#research'
-                        aria-expanded='false'
-                        aria-controls='research'
-                      >
-                        Research and Development
-                      </button>
-
-                      <b> </b>
-                    </h5>
-                  </div>
+                  {/* <div className='card-header' id='headingTwo'> */}
+                  {/* <h5 className='mb-0'> */}
+                  <button
+                    className='btn collapsed text-dark'
+                    data-toggle='collapse'
+                    data-target='#research'
+                    aria-expanded='false'
+                    aria-controls='research'
+                    style={{
+                      width: '350px',
+                      padding: '1.2rem 2rem',
+                      textAlign: 'left',
+                      background: '#fff',
+                      borderRadius: '30px',
+                      border: 'none',
+                    }}
+                  >
+                    <b>
+                      Research and Development{' '}
+                      <span style={{ float: 'right' }}>{'>'}</span>
+                    </b>
+                    {/* </h5> */}
+                  </button>
                   <div
                     id='research'
                     className='collapse'
@@ -68,21 +76,28 @@ const Approach = () => {
               </Slide>
               <Slide left delay={100}>
                 <div className='special-card my-2'>
-                  <div className='card-header' id='headingTwo'>
-                    <h5 className='mb-0'>
-                      <button
-                        className='btn btn-link collapsed text-dark'
-                        data-toggle='collapse'
-                        data-target='#projectEvaluation'
-                        aria-expanded='false'
-                        aria-controls='projectEvaluation'
-                      >
-                        Project Evaluation
-                      </button>
-
-                      <b> </b>
-                    </h5>
-                  </div>
+                  <button
+                    className='btn collapsed text-dark'
+                    data-toggle='collapse'
+                    data-target='#projectEvaluation'
+                    aria-expanded='false'
+                    aria-controls='projectEvaluation'
+                    style={{
+                      width: '350px',
+                      padding: '1.2rem 2rem',
+                      textAlign: 'left',
+                      background: '#fff',
+                      borderRadius: '30px',
+                      border: 'none',
+                    }}
+                  >
+                    {/* <div className='card-header' id='headingTwo'> */}
+                    <b>
+                      Project Evaluation{' '}
+                      <span style={{ float: 'right' }}>{'>'}</span>
+                    </b>
+                    {/* </div> */}
+                  </button>
                   <div
                     id='projectEvaluation'
                     className='collapse'
@@ -99,21 +114,27 @@ const Approach = () => {
 
               <Slide left delay={200}>
                 <div className='special-card my-2'>
-                  <div className='card-header' id='headingTwo'>
-                    <h5 className='mb-0'>
-                      <button
-                        className='btn btn-link collapsed text-dark'
-                        data-toggle='collapse'
-                        data-target='#projectsetup'
-                        aria-expanded='false'
-                        aria-controls='projectsetup'
-                      >
-                        Project Setup
-                      </button>
-
-                      <b> </b>
-                    </h5>
-                  </div>
+                  <button
+                    className='btn collapsed text-dark'
+                    data-toggle='collapse'
+                    data-target='#projectsetup'
+                    aria-expanded='false'
+                    aria-controls='projectsetup'
+                    style={{
+                      width: '350px',
+                      padding: '1.2rem 2rem',
+                      textAlign: 'left',
+                      background: '#fff',
+                      borderRadius: '30px',
+                      border: 'none',
+                    }}
+                  >
+                    <b>
+                      Project Setup{' '}
+                      <span style={{ float: 'right' }}>{'>'}</span>
+                    </b>
+                    {/* </h5> */}
+                  </button>
                   <div
                     id='projectsetup'
                     className='collapse'
@@ -130,21 +151,27 @@ const Approach = () => {
 
               <Slide left delay={300}>
                 <div className='special-card my-2'>
-                  <div className='card-header' id='headingTwo'>
-                    <h5 className='mb-0'>
-                      <button
-                        className='btn btn-link collapsed text-dark'
-                        data-toggle='collapse'
-                        data-target='#projectExecution'
-                        aria-expanded='false'
-                        aria-controls='projectExecution'
-                      >
-                        Project Execution
-                      </button>
+                  <button
+                    className='btn collapsed text-dark'
+                    data-toggle='collapse'
+                    data-target='#projectExecution'
+                    aria-expanded='false'
+                    aria-controls='projectExecution'
+                    style={{
+                      width: '350px',
+                      padding: '1.2rem 2rem',
+                      textAlign: 'left',
+                      background: '#fff',
+                      borderRadius: '30px',
+                      border: 'none',
+                    }}
+                  >
+                    <b>
+                      Project Execution{' '}
+                      <span style={{ float: 'right' }}>{'>'}</span>
+                    </b>
+                  </button>
 
-                      <b> </b>
-                    </h5>
-                  </div>
                   <div
                     id='projectExecution'
                     className='collapse'

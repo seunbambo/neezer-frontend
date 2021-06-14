@@ -208,7 +208,7 @@ const People = () => {
                       <b>Barakat Salam</b>
                       <br />
                       <a href='#' className='read-more'>
-                        Executive Assistance
+                        Executive Assistant
                       </a>
                     </figcaption>
                   </figure>
