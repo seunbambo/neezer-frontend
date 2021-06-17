@@ -45,7 +45,7 @@ const NavBar = () => {
             aria-controls='navbarSupportedContent-4'
             aria-expanded='false'
             aria-label='Toggle navigation'
-            style={{ color: '#aaa', border: '2px solid #aaa' }}
+            style={{ color: '#333', border: '2px solid #333' }}
           >
             {/* <span className='navbar-toggler-icon'></span> */}
             <i className="fas fa-bars"></i>
