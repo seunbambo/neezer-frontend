@@ -38,6 +38,7 @@ const Quote = () => {
       <div className='container'>
         <div className='row col-lg-12 col-md-12 mx-auto'>
           <div className=' mt-4 mb-5'>
+            <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
             <h4 className='text-center'>
               GET A FREE QU
               <span
@@ -59,6 +60,7 @@ const Quote = () => {
               </span>
               UR PROJECT
             </h4>
+            </div>
             <div className='col-lg-12 col-md-12 my-5'>
               <p className='text-center'>
                 Fill the form and tell us about your project. Our team will
