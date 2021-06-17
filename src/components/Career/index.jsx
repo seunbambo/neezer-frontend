@@ -33,8 +33,9 @@ const Career = () => {
               We welcome applications from hardworking self-motivated designers,
               developers, product/project managers ready to build the future.
             </p>
+            <p>Kindly fill <strong><a href='https://docs.google.com/forms/d/e/1FAIpQLSf_7-CKM7AwdXVOzB8MuQW2EwU6QNbeJzKodQnFXnV4uILcaQ/viewform?vc=0&c=0&w=1&flr=0' target='_blank'>this form</a></strong> and we will reachout to you.</p>
           </div>
-          <div className='col-lg-12 col-md-12 text-center'>
+          {/* <div className='col-lg-12 col-md-12 text-center'>
             <h4 className='text-center'>
               <span
                 style={{
@@ -55,8 +56,8 @@ const Career = () => {
                 LT
               </span>
             </h4>
-          </div>
-          <div className=''>
+          </div> */}
+          {/* <div className=''>
             <form action='#'>
               <div className='mx-auto row mt-4'>
                 <div className='col-lg-6 col-md-6'>
@@ -129,7 +130,7 @@ const Career = () => {
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
