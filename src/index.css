@@ -68,3 +68,10 @@ label {
 input {
   border: 1px solid #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-top: 0;
+    height: 50px;
+  }
+}

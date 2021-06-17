@@ -59,7 +59,7 @@ const People = () => {
               >
                 <div>
                   {/* <Slide right> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Ayo}
@@ -76,7 +76,7 @@ const People = () => {
                   {/* </Slide> */}
 
                   {/* <Slide right delay={200}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Dapo}
@@ -93,7 +93,7 @@ const People = () => {
                   {/* </Slide> */}
 
                   {/* <Slide right delay={400}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Odun}
@@ -110,7 +110,7 @@ const People = () => {
                   {/* </Slide> */}
 
                   {/* <Slide right delay={600}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Seun}
@@ -129,7 +129,7 @@ const People = () => {
 
                 <div>
                   {/* <Slide right> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Ayo}
@@ -146,7 +146,7 @@ const People = () => {
                   {/* </Slide> */}
 
                   {/* <Slide right delay={200}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Damilare}
@@ -163,7 +163,7 @@ const People = () => {
                   {/* </Slide> */}
 
                   {/* <Slide right delay={400}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Doyin}
@@ -180,7 +180,7 @@ const People = () => {
                   {/* </Slide> */}
 
                   {/* <Slide right delay={600}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Delight}
@@ -198,7 +198,7 @@ const People = () => {
                 </div>
                 <div>
                   {/* <Slide right delay={600}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Barakat}
@@ -215,7 +215,7 @@ const People = () => {
                   {/* </Slide> */}
 
                   {/* <Slide right delay={600}> */}
-                  <figure className='figure col-lg-3 col-md-3'>
+                  <figure className='figure col-lg-3 col-md-3 col-sm-12 col-xs-12'>
                     <img
                       className='figure-img img-fluid mx-auto rounded staff-images'
                       src={Hope}
