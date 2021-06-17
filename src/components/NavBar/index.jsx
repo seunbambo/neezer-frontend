@@ -45,9 +45,10 @@ const NavBar = () => {
             aria-controls='navbarSupportedContent-4'
             aria-expanded='false'
             aria-label='Toggle navigation'
-            style={{ color: '#000', border: '1px solid #000' }}
+            style={{ color: '#aaa', border: '2px solid #aaa' }}
           >
-            <span className='navbar-toggler-icon'></span>
+            {/* <span className='navbar-toggler-icon'></span> */}
+            <i className="fas fa-bars"></i>
           </button>
           <div
             className='collapse navbar-collapse'
